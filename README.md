@@ -1,5 +1,5 @@
 # PBLUN
-Part-of-speech based label update network for aspect sentiment triplet extraction. Under review in Journal of King Saud University-Computer and Information Sciences.
+Part-of-speech based label update network for aspect sentiment triplet extraction. Yanbo Li, Qing He, Liu Yang. Journal of King Saud University-Computer and Information Sciences.
 
 The code is based on [BDTF-ABSA](https://github.com/HITSZ-HLT/BDTF-ABSA), and thanks them very much.
 ## Requirements
