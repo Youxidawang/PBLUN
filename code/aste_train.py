@@ -51,6 +51,13 @@ class ASTE(pl.LightningModule):
         self.hparams.gradient_clip_val = hparams.grad
         self.hparams.num_table_layers = hparams.num_t
         self.hparams.accumulate_grad_batches = 1
+        hparams.max_epochs = hparams.epoch
+        hparams.precision = hparams.p
+        hparams.gpus = hparams.gpu
+        hparams.gradient_clip_val = hparams.grad
+        hparams.data_dir = hparams.prefix + hparams.dataset
+        hparams.num_table_layers = hparams.num_t
+        hparams.seq2mat = hparams.seq
 
     @pl.utilities.rank_zero_only
     def save_model(self):
